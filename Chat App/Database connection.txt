@@ -1,3 +1,0 @@
-CREATE a new database name chat and import chat.sql in mysql server
-MySQL server PORT:3306
-
