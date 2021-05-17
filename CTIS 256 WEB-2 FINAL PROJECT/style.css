@@ -1,0 +1,153 @@
+html,body{
+    height: 100%;
+    font-size: 25px;
+    
+}
+
+.containerTodo {
+    display: flex;
+    font-weight: 500;
+
+}
+
+.circle{
+    width: 80px;
+}
+
+
+.contentMenu {
+    height: 100vh;
+    width: 35%;
+    background: white;
+}
+
+
+.screentwo{   
+    width: 65%;
+
+}
+
+.topheader{
+    margin-left: 100px;
+}
+
+.textcolorblue{
+    color :#64B5F6;
+}
+.txt {
+    text-align: center;
+ 
+}
+.rspsvinfo{
+    font-size: 25px;
+}
+
+
+.modalbox {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.icoStar {
+    position: relative;
+    left: -100px;
+    color :black;
+}
+
+.icoDehaze {
+    position: relative;
+    left: -50px;
+    color :black;
+}
+.icoadd{
+    color :black; 
+}
+.icoExit{
+    color:#00ACC1;
+}
+
+#message{
+    background:#7e57c2;
+    padding:5px 15px;
+    box-sizing: border-box;
+}
+
+
+
+
+
+.messageBox{
+    
+    position: fixed;
+    bottom: 15px;
+ right:125px;
+    width: 50%;
+  height: 100px;
+ 
+
+}
+.textfield {
+    display: flex;
+
+}
+
+article{
+    margin-top:35px;
+   
+}
+
+
+
+
+
+/*RESPONSIVE*/
+@media screen and (max-width: 1025px) {
+  html,body{
+    font-size: 15px;
+  }
+  
+.circle{
+    width: 50px;
+}
+.rspsvinfo{
+    font-size: 15px;
+}
+}
+
+
+/* to cross checkbox css*/
+label {
+    font-size: 1.5em;
+  }
+  
+  input[type=checkbox]:checked + label {
+    color:red;
+    text-decoration: line-through;
+  } /*This is the MDN spec for doing this*/
+  
+  /* #cbox3 {
+    color:blue;
+    text-decoration: line-through;
+  } */
+  
+  #cbox3:checked + label {
+    color:blue;
+    text-decoration: line-through;
+  }
+  
+  .cbox4 {
+    font-size: 5em;
+    color:red;
+    text-decoration: line-through;
+  }
+
+  .spn-txt{
+    font-size: 25px;
+
+  }
+
+  
+
+
+
+
