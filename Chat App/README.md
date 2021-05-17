@@ -1,2 +1,2 @@
-Chat app with AJAX and REST
+single page simple chat app
 db: MySQL
